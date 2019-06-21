@@ -9,7 +9,7 @@ let server = net.createServer()
 server.on('connection', (socket)=>{
   socket.pause()
 
-  socket.setTimeout(3 * 1000)   //
+  socket.setTimeout(3 * 1000)   // 超过一定时间，判定超时
 
   // write after end 在文件关闭后 再次写入
   // setTimeout(()=>{
