@@ -1,0 +1,1 @@
+node yargs.js %1 %2
